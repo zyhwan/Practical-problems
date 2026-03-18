@@ -1,9 +1,9 @@
 #pragma once
-class UGoal
+class AGoal
 {
 public:
-	UGoal();
-	~UGoal();
+	AGoal();
+	~AGoal();
 
 	int x;
 	int y;

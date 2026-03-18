@@ -1,9 +1,9 @@
 #pragma once
-class UWall
+class AWall
 {
 public:
-	UWall();
-	~UWall();
+	AWall();
+	~AWall();
 
 };
 

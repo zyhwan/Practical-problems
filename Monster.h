@@ -1,9 +1,9 @@
 #pragma once
-class UMonster
+class AMonster
 {
 public:
-	UMonster();
-	~UMonster();
+	AMonster();
+	~AMonster();
 
 	void Move(int Addx, int Addy);
 

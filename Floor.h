@@ -1,8 +1,8 @@
 #pragma once
-class UFloor
+class AFloor
 {
 public:
-	UFloor();
-	~UFloor();
+	AFloor();
+	~AFloor();
 };
 

@@ -3,8 +3,8 @@
 #include "Monster.h"
 #include "Goal.h"
 
-class UWall;
-class UFloor;
+class AWall;
+class AFloor;
 
 class UWorld
 {
@@ -12,12 +12,12 @@ public:
 	UWorld();
 	~UWorld();
 
-	UPlayer* Player;
-	UMonster* Monster;
-	UGoal* Goal;
-	UWall* Wall;
-	UFloor* Floor;
+	APlayer* Player;
+	AMonster* Monster;
+	AGoal* Goal;
+	AWall* Wall;
+	AFloor* Floor;
 
-	void FinishGame(UPlayer* Player, UGoal* Goal);
+	void FinishGame(APlayer* Player, AGoal* Goal);
 };
 

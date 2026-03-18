@@ -1,10 +1,10 @@
 #pragma once
 
-class UPlayer
+class APlayer
 {
 public:
-	UPlayer();
-	~UPlayer();
+	APlayer();
+	~APlayer();
 
 	void Move(int Addx, int Addy);
 

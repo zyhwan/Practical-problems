@@ -1,16 +1,16 @@
 #include "Monster.h"
 
-UMonster::UMonster()
+AMonster::AMonster()
 {
 	x = 5;
 	y = 5;
 }
 
-UMonster::~UMonster()
+AMonster::~AMonster()
 {
 }
 
-void UMonster::Move(int Addx, int Addy)
+void AMonster::Move(int Addx, int Addy)
 {
 	x += Addx;
 	y += Addy;

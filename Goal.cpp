@@ -1,11 +1,11 @@
 #include "Goal.h"
 
-UGoal::UGoal()
+AGoal::AGoal()
 {
 	x = 8;
 	y = 8;
 }
 
-UGoal::~UGoal()
+AGoal::~AGoal()
 {
 }

@@ -6,11 +6,11 @@
 
 UWorld::UWorld()
 {
-	Player = new UPlayer;
-	Monster = new UMonster;
-	Goal = new UGoal;
-	Wall = new UWall;
-	Floor = new UFloor;
+	Player = new APlayer;
+	Monster = new AMonster;
+	Goal = new AGoal;
+	Wall = new AWall;
+	Floor = new AFloor;
 }
 
 UWorld::~UWorld()
@@ -31,7 +31,7 @@ UWorld::~UWorld()
 	Floor = nullptr;
 }
 
-void UWorld::FinishGame(UPlayer* Player, UGoal* Goal)
+void UWorld::FinishGame(APlayer* Player, AGoal* Goal)
 {
 	if ((*Player).x == (*Goal).x && (*Player).y == (*Goal).y)
 	{
