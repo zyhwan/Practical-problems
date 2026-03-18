@@ -33,8 +33,5 @@ UWorld::~UWorld()
 
 void UWorld::FinishGame(APlayer* Player, AGoal* Goal)
 {
-	if ((*Player).x == (*Goal).x && (*Player).y == (*Goal).y)
-	{
-		std::cout << "게임이 끝났습니다!" << std::endl;
-	}
+
 }
