@@ -17,10 +17,18 @@ UWorld::~UWorld()
 {
 	delete Player;
 	Player = nullptr;
+
 	delete Monster;
 	Monster = nullptr;
+
 	delete Goal;
 	Goal = nullptr;
+
+	delete Wall;
+	Wall = nullptr;
+
+	delete Floor;
+	Floor = nullptr;
 }
 
 void UWorld::FinishGame(UPlayer* Player, UGoal* Goal)
