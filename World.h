@@ -1,9 +1,7 @@
 #pragma once
 #include "Player.h"
-
-//class UPlayer;
-class UMonster;
-class UGoal;
+#include "Monster.h"
+#include "Goal.h"
 
 class UWorld
 {
@@ -15,10 +13,9 @@ public:
 	UMonster* Monster;
 	UGoal* Goal;
 
-	void FinishGame(UPlayer* Player, UGoal* Goal);
-
 	int Wall;
 	int Floor;
 
+	void FinishGame(UPlayer* Player, UGoal* Goal);
 };
 

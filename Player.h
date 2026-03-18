@@ -6,10 +6,9 @@ public:
 	UPlayer();
 	~UPlayer();
 
-	int x;
-	int y;
-
 	void Move(int Addx, int Addy);
 
+	int x;
+	int y;
 };
 

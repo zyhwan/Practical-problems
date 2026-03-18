@@ -7,7 +7,8 @@ int main()
 {
 	UWorld world;
 
-	cout << world.Player->x << endl;
-	cout << &world.Player << endl;
+	cout << "플레이어 위치: " << world.Player->x << ", " << world.Player->y << endl;
+	cout << "몬스터 위치: " << world.Monster->x << ", " << world.Monster->y << endl;
+	cout << "Goal 위치: " << world.Goal->x << ", " << world.Goal->y << endl;
 
 }
