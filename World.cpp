@@ -1,13 +1,16 @@
 #include <iostream>
 #include "World.h"
+#include "Wall.h"
+#include "Floor.h"
+
 
 UWorld::UWorld()
 {
-	Player = new UPlayer();
-	Monster = new UMonster();
-	Goal = new UGoal();
-	Wall = 0;
-	Floor = 1;
+	Player = new UPlayer;
+	Monster = new UMonster;
+	Goal = new UGoal;
+	Wall = new UWall;
+	Floor = new UFloor;
 }
 
 UWorld::~UWorld()
